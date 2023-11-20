@@ -1,8 +1,8 @@
 from tkinter import *
 from tkinter import ttk
-from Pst import post
+from task1 import post
 from tkinter import messagebox
-from pythonProject import form2
+from task2 import form2
 
 import json
 
