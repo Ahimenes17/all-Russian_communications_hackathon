@@ -1,14 +1,6 @@
 from tkinter import *
 from tkinter import ttk
-from task1 import post
 from tkinter import messagebox
-from task2 import form2
-from task1 import form1
-import json
-
-main_form = Tk()
-main_form.title("Главная форма")
-main_form.geometry("500x150")
 
 
 def third():
@@ -59,33 +51,3 @@ def third():
         command=autorization,
     )
     button_get_group.place(x=10, y=150)
-
-
-button1 = Button(
-    main_form,
-    text="Первое задание",
-    padx=20,
-    pady=5,
-    command=form1.first,
-)
-button1.place(x=30, y=50)
-
-button2 = Button(
-    main_form,
-    text="Второе задание",
-    padx=20,
-    pady=5,
-    command=form2.second,
-)
-button2.place(x=190, y=50)
-
-button3 = Button(
-    main_form,
-    text="Третье задание",
-    padx=20,
-    pady=5,
-    command=third,
-)
-button3.place(x=350, y=50)
-
-main_form.mainloop()
