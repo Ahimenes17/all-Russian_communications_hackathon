@@ -43,7 +43,7 @@ def first():
         value_dolgota1 = float(entry_dolgota.get())
         value_shirota1 = float(entry_shirota.get())
         value_token1 = str(entry_token.get())
-        with open("F:\projekt\Python\Hackaton\data.txt", "w") as file:
+        with open("./data.txt", "w") as file:
             json.dump(
                 post.address_search(
                     token=value_token1,

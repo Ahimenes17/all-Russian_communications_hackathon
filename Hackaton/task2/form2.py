@@ -1,7 +1,7 @@
 from tkinter import *
 from tkinter import ttk
 from tkinter import messagebox
-from task2.second_file import VK
+from task2.main import VK
 
 def second():
     second_task = Tk()
